@@ -1,0 +1,24 @@
+div {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: 1px dashed blue;
+    padding: 10px 20px;
+    margin: 0;
+  
+}
+.red-block {
+    display: block;
+    color: red;
+}
+img:nth-of-type(2) {
+    border: 2px solid red;
+    /* position: fixed; */
+    top: 20px;
+    left: 40px;
+}
+
+p {
+    position: sticky;
+    top: 20px;
+}
